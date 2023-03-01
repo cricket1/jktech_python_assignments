@@ -21,11 +21,10 @@ def get_file_properties(file_path):
             data = file.readlines()
             lines = len(data)
             print('Total No. Of Lines:', lines)
-            file.close()
+            number_of_characters = 0
+            for datum in data:
+                number_of_characters += len(datum)
 
-        with open(file_path, 'r') as file:
-            data = file.read()
-            number_of_characters = len(data)
             print('Total No. Of Characters:', number_of_characters)
             file.close()
     else:
