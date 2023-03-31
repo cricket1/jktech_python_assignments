@@ -1,0 +1,5 @@
+pt_img_classify/models/*
+pt_img_classify/visualise/*
+pt_img_classify/__pycache__/*
+.idea/*
+pt_img_classify/data/mask_data_set_gray/*
